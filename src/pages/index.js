@@ -111,6 +111,9 @@ const IndexPage = () => {
       }
     });
 
+    geoJsonLayers.addTo(map)
+
+
 }
 
   const mapSettings = {
